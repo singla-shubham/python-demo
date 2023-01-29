@@ -1,0 +1,99 @@
+
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>
+(base) C:\Users\HOME>E:/
+'E:/' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\HOME>E
+'E' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) C:\Users\HOME>E:
+
+(base) E:\>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) E:\>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+(base) E:\>cd python
+
+(base) E:\python>jupyter notebook
+[I 14:01:31.313 NotebookApp] Serving notebooks from local directory: E:\python
+[I 14:01:31.313 NotebookApp] Jupyter Notebook 6.5.2 is running at:
+[I 14:01:31.313 NotebookApp] http://localhost:8888/?token=9df68e75d67892846da311a9b48dbe8ddbe8e8306f92f5e5
+[I 14:01:31.313 NotebookApp]  or http://127.0.0.1:8888/?token=9df68e75d67892846da311a9b48dbe8ddbe8e8306f92f5e5
+[I 14:01:31.313 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:01:31.386 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/HOME/AppData/Roaming/jupyter/runtime/nbserver-10232-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=9df68e75d67892846da311a9b48dbe8ddbe8e8306f92f5e5
+     or http://127.0.0.1:8888/?token=9df68e75d67892846da311a9b48dbe8ddbe8e8306f92f5e5
+[I 14:01:40.553 NotebookApp] Creating new directory in
+[W 14:01:54.337 NotebookApp] 404 GET /api/contents/Untitled%20Folder?type=directory&_=1674981096137 (::1): file or directory does not exist: 'Untitled Folder'
+[W 14:01:54.338 NotebookApp] file or directory does not exist: 'Untitled Folder'
+[W 14:01:54.340 NotebookApp] 404 GET /api/contents/Untitled%20Folder?type=directory&_=1674981096137 (::1) 5.830000ms referer=http://localhost:8888/tree/Untitled%20Folder
+[I 14:01:59.526 NotebookApp] Creating new notebook in /Notebooks
+[I 14:02:00.320 NotebookApp] Writing notebook-signing key to C:\Users\HOME\AppData\Roaming\jupyter\notebook_secret
+[W 14:02:03.877 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20230129140130 (::1) 26.990000ms referer=http://localhost:8888/notebooks/Notebooks/Untitled.ipynb?kernel_name=python3
+[I 14:02:04.372 NotebookApp] Kernel started: 702adb1a-a680-431f-a5af-1a49aea1667c, name: python3
+[I 14:02:20.886 NotebookApp] Saving file at /Notebooks/Basic Python Commands.ipynb
+C:\Users\HOME\miniconda3\lib\site-packages\nbformat\__init__.py:129: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+C:\Users\HOME\miniconda3\lib\site-packages\notebook\services\contents\manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 14:02:21.423 NotebookApp] Saving file at /Notebooks/Basic Python Commands.ipynb
+[I 14:02:22.375 NotebookApp] Starting buffering for 702adb1a-a680-431f-a5af-1a49aea1667c:7a7ecd722380441b81aa8a90fe0dc2c6
+[I 14:02:31.389 NotebookApp] Interrupted...
+[I 14:02:31.389 NotebookApp] Shutting down 1 kernel
+[I 14:02:31.389 NotebookApp] Kernel shutdown: 702adb1a-a680-431f-a5af-1a49aea1667c
+Traceback (most recent call last):
+  File "C:\Users\HOME\miniconda3\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\HOME\miniconda3\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\HOME\miniconda3\Scripts\jupyter-notebook.EXE\__main__.py", line 7, in <module>
+  File "C:\Users\HOME\miniconda3\lib\site-packages\jupyter_core\application.py", line 277, in launch_instance
+    return super().launch_instance(argv=argv, **kwargs)
+  File "C:\Users\HOME\miniconda3\lib\site-packages\traitlets\config\application.py", line 1041, in launch_instance
+    app.start()
+  File "C:\Users\HOME\miniconda3\lib\site-packages\notebook\notebookapp.py", line 2387, in start
+    self.cleanup_kernels()
+  File "C:\Users\HOME\miniconda3\lib\site-packages\notebook\notebookapp.py", line 2166, in cleanup_kernels
+    run_sync(self.kernel_manager.shutdown_all())
+  File "C:\Users\HOME\miniconda3\lib\site-packages\jupyter_core\utils\__init__.py", line 168, in wrapped
+    return loop.run_until_complete(inner)
+  File "C:\Users\HOME\miniconda3\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\HOME\miniconda3\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\HOME\miniconda3\lib\asyncio\base_events.py", line 1899, in _run_once
+    handle._run()
+  File "C:\Users\HOME\miniconda3\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\HOME\miniconda3\lib\site-packages\nest_asyncio.py", line 196, in step
+  File "C:\Users\HOME\miniconda3\lib\asyncio\tasks.py", line 232, in __step
+    result = coro.send(None)
+  File "C:\Users\HOME\miniconda3\lib\site-packages\jupyter_client\multikernelmanager.py", line 260, in _async_shutdown_kernel
+    stopper = ensure_async(km.shutdown_kernel(now, restart))
+  File "C:\Users\HOME\miniconda3\lib\site-packages\jupyter_core\utils\__init__.py", line 160, in wrapped
+    return _runner_map[name].run(inner)
+  File "C:\Users\HOME\miniconda3\lib\site-packages\jupyter_core\utils\__init__.py", line 128, in run
+    return fut.result(None)
+  File "C:\Users\HOME\miniconda3\lib\concurrent\futures\_base.py", line 453, in result
+    self._condition.wait(timeout)
+  File "C:\Users\HOME\miniconda3\lib\threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+(base) E:\python>
